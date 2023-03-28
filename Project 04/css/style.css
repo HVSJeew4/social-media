@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Container style */
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+}
+
+
+/* Top Section description */
+
+.top-section{
+    width: 80%;
+    display: flex;
+    padding-bottom: 10px;
+
+}
+
+.top-section .description{
+    width: 50%;
+}
+
+.top-section .description h1{
+    font-weight: 700;
+    font-size: 50px;
+    padding-right: 450px;
+    padding-bottom: 30px;
+    color: rgba(90,49,88,255);
+    list-style: 1.2em;
+
+}
+
+.top-section .description h3{
+    font-weight: 100;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 300px;
+    padding-bottom: 30px;
+    line-height: 1.2em;
+    color: rgba(150,141,149,255);
+
+}
+
+
+/* Rating item */
+
+.container .rating{
+    color: rgb(52, 0, 63);
+    padding-top: 50px;
+    
+}
+
+.container .rating .box img{
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    
+}
+
+.container .rating .box h3{
+    padding: 10px 5px 10px 25px;
+}
+.container .rating .box{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(247,242,248,255);
+
+}
+.container .rating .first-rate{
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+}
+.container .rating .second-rate{ 
+    padding: 10px 30px 10px 25px;
+    margin: 20px 10px 0px 75px;
+  
+}
+.container .rating .third-rate{
+    padding: 10px 35px 10px 25px;
+    margin: 20px 10px 0px 150px;
+   
+}
+
+
+
+
+/* Bottom Section */
+.bottom-section{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.bottom-section .card{
+    width:  %;
+    height: 250px;
+    background-color: rgba(81,31,80,255);
+    border-radius: 9px;
+    padding: 50px;
+}
+.bottom-section .card img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+}
+
+
+.bottom-section .card .card-intro{
+    display: flex;
+}
+.bottom-section .card .card-intro .card-name{
+    display: block;
+    padding: 22px 0px 0px 30px;
+    font-size: 18px ;
+}
+
+.bottom-section .card .card-intro .card-name .name{
+    color:#fff6ff;
+    padding-bottom: 10px;
+    
+}
+.bottom-section .card .card-intro .card-name .state{
+    color: #bb5d97;
+    font-size: 15px;
+   
+}
+.bottom-section .card .qaout{
+    padding-top: 25px;
+    color: white;
+    line-height: 1.2rem;
+}
+
+
+#irene{
+    margin: 15px 10px 0px 35px;
+}
+#anne{
+    margin: 25px 10px 0px 35px;
+}
